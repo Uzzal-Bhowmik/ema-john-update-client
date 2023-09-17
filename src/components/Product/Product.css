@@ -1,0 +1,118 @@
+.product {
+    width: 300px;
+<<<<<<< HEAD
+    height: 510px;
+=======
+    height: 530px;
+>>>>>>> cab638bc806e52e0404ef1a8376733d8b6fbd6f8
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.product img {
+    width: 286px;
+    height: 286px;
+<<<<<<< HEAD
+    margin: 7px;
+    border-radius: 8px;
+}
+
+.product-name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+}
+.product-info{
+    margin-left: 14px;
+}
+.product-info p{
+    margin-top: 5px;
+}
+.btn-cart{
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+}
+.btn-cart:hover{
+    background-color: orange;
+=======
+    margin: 8px 7px 0px 7px;
+    border-radius: 8px;
+}
+
+.product p {
+    margin-left: 7px;
+    margin-right: 7px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+}
+
+.product #title {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.product #price {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.seller-and-ratting {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.seller-and-ratting p {
+    color: #2A414F !important;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#addToCartBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    border-top: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    height: 48px;
+    background-color: #FFE0B3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+#addToCartBtn p {
+    margin: 0 !important;
+}
+
+#addToCartBtn svg {
+    width: 24px !important;
+    height: 20px;
+    margin-left: 5px !important;
+    margin-top: 3px;
+}
+
+#addToCartBtn:hover {
+    background-color: gold;
+    transition: all .3s ease-in;
+>>>>>>> cab638bc806e52e0404ef1a8376733d8b6fbd6f8
+}

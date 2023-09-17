@@ -1,0 +1,6 @@
+.products-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    padding: 120px 90px;
+}

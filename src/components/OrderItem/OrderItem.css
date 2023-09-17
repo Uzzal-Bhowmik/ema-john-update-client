@@ -1,0 +1,68 @@
+.ordered-item {
+    width: 571px;
+    min-height: 107px;
+    display: grid;
+    grid-template-columns: 18% 57% 25%;
+    margin-bottom: 25px;
+    border: 1px solid rgb(255, 224, 178);
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.ordered-item div {
+    width: 100%;
+}
+
+.ordered-item img {
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    margin-left: 10px;
+}
+
+.item-details h5 {
+    margin-top: 0;
+}
+
+.item-details p {
+    margin: 0 !important;
+}
+
+
+.item-delete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-delete-btn button {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 9px 13px;
+    background: rgb(249, 205, 205);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.item-delete-btn button:hover {
+    background: rgb(235, 87, 87);
+}
+
+.item-delete-btn button:hover svg {
+    color: rgb(249, 205, 205) !important;
+}

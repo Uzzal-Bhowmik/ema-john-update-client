@@ -1,0 +1,13 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "default": "ema-john-update",
+    "emaJohn": "ema-john-update"
+  },
+  "targets": {},
+  "etags": {}
+=======
+    "default": "ema-john-router-auth-123456"
+  }
+>>>>>>> cab638bc806e52e0404ef1a8376733d8b6fbd6f8
+}

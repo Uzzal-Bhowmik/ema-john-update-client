@@ -1,0 +1,106 @@
+.cart-container {
+    background: rgba(255, 153, 0, 0.3);
+    font-family: 'lato';
+    min-height: 100vh;
+}
+
+.order-sum {
+    padding: 23px;
+    position: sticky;
+    top: 0;
+}
+
+.order-sum h1 {
+    font-size: 25px;
+    color: #1C2B35;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.order-info {
+    margin-top: 50px;
+}
+
+.order-info p {
+    color: #2A414F;
+}
+
+.order-info h4 {
+    color: #0E161A;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.dollar-icon {
+    margin-left: 10px;
+}
+
+.clear-cart-btn {
+    width: 350px;
+    height: 56px;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.clear-cart-btn:hover {
+    background: #eb0404;
+}
+
+
+
+.review-order-btn {
+    width: 100%;
+    height: 46px;
+    background: #FF9900;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+    padding-left: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all .3s ease;
+    color: white;
+}
+
+.review-order-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.review-order-btn:hover {
+    background: #c1780b;
+}
+
+
+
+.place-order-btn {
+    width: 350px;
+    height: 56px;
+    background: #FF9900;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+    padding-left: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all .3s ease;
+}
+
+.place-order-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.place-order-btn:hover {
+    background: #c1780b;
+}
